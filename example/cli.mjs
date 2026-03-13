@@ -1,5 +1,5 @@
-import { YoutubeTranscript } from 'youtube-transcript';
+import { fetchTranscript } from '../dist/youtube-transcript.esm.js';
 
 (async () => {
-    console.log(await YoutubeTranscript.fetchTranscript(process.argv[2]));
+  console.log(await fetchTranscript(process.argv[2]));
 })();

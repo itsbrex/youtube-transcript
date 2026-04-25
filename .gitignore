@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+/.tshy
+/.tshy-build-tmp
 
 # local env files
 .env.local

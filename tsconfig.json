@@ -1,21 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "esnext",
+    "target": "es2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": false,
     "declaration": true,
-    "declarationDir": "dist",
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "moduleResolution": "bundler",
-    "experimentalDecorators": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "baseUrl": ".",
-    "lib": ["esnext", "dom"],
-    "typeRoots": ["node_modules/@types"]
+    "lib": ["es2022", "dom"]
   },
-  "include": ["src/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*.ts"]
 }
